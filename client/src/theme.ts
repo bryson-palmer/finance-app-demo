@@ -42,7 +42,7 @@ export const tokens = {
     light: '#2d2d34',
     main: '#1f2026',
   },
-};
+}
 
 // mui theme settings
 export const themeSettings = {
@@ -103,4 +103,4 @@ export const themeSettings = {
       color: tokens.grey[700],
     },
   },
-};
+}
