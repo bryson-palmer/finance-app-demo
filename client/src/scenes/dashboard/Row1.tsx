@@ -36,7 +36,7 @@ const Row1 = (props: Props) => {
 
   return (
     <>
-      <DashboardBox gridArea='a'>
+      <DashboardBox gridArea='kpis'>
         <BoxHeader
           sideText='+4%'
           subtitle='top line represents revenue, bottom line represents expenses'

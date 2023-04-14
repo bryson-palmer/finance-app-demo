@@ -5,10 +5,10 @@ import Row2 from './Row2'
 import Row3 from './Row3'
 
 const gridTemplateLgScreens = `
-  'a b c'
-  'a b c'
-  'a b c'
-  'a b f'
+  'kpis b c'
+  'kpis b c'
+  'kpis b c'
+  'kpis b f'
   'd e f'
   'd e f'
   'd h i'
@@ -18,10 +18,10 @@ const gridTemplateLgScreens = `
 `
 
 const gridTemplateSmScreens = `
-  'a'
-  'a'
-  'a'
-  'a'
+  'kpis'
+  'kpis'
+  'kpis'
+  'kpis'
   'b'
   'b'
   'b'
