@@ -59,7 +59,7 @@ const Row1 = () => {
 
   return (
     <>
-      <DashboardBox gridArea='expenses'>
+      <DashboardBox gridArea='expensesArea'>
         <BoxHeader
           sideText='+4%'
           subtitle='top line represents revenue, bottom line represents expenses'
@@ -132,7 +132,7 @@ const Row1 = () => {
         </ResponsiveContainer>
       </DashboardBox>
 
-      <DashboardBox gridArea='profit'>
+      <DashboardBox gridArea='profitLine'>
         <BoxHeader
           sideText='+4%'
           subtitle='top line represents revenue, bottom line represents profit'
@@ -140,6 +140,8 @@ const Row1 = () => {
         />
         <ResponsiveContainer width="100%" height="100%">
           <LineChart
+            width={500}
+            height={400}
             data={revenueProfit}
             margin={{
               top: 20,
@@ -190,7 +192,7 @@ const Row1 = () => {
         </ResponsiveContainer>
       </DashboardBox>
 
-      <DashboardBox gridArea='revenue'>
+      <DashboardBox gridArea='revenueBar'>
         <BoxHeader
           sideText='+4%'
           subtitle='graph representing the revenue month by month'
