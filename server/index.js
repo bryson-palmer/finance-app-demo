@@ -28,7 +28,7 @@ app.use(cors())
 /* Routes */
 app.use('/kpi', kpiRoutes)
 app.use('/product', productRoutes)
-app.use('transaction', transactionRoutes)
+app.use('/transaction', transactionRoutes)
 
 /* Mongoose set up */
 const PORT = process.env.PORT || 9000
