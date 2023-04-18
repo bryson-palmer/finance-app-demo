@@ -11,10 +11,10 @@ const gridTemplateLgScreens = `
   'expensesArea profitLine productScatter'
   'expensesLine targetsPie productScatter'
   'expensesLine targetsPie productScatter'
-  'expensesLine h i'
-  'g h i'
-  'g h j'
-  'g h j'
+  'expensesLine ordersGrid breakdownPie'
+  'productsGrid ordersGrid breakdownPie'
+  'productsGrid ordersGrid summaryBar'
+  'productsGrid ordersGrid summaryBar'
 `
 
 const gridTemplateSmScreens = `
@@ -37,17 +37,17 @@ const gridTemplateSmScreens = `
   'productScatter'
   'productScatter'
   'productScatter'
-  'g'
-  'g'
-  'g'
-  'h'
-  'h'
-  'h'
-  'h'
-  'i'
-  'i'
-  'j'
-  'j'
+  'productsGrid'
+  'productsGrid'
+  'productsGrid'
+  'ordersGrid'
+  'ordersGrid'
+  'ordersGrid'
+  'ordersGrid'
+  'breakdownPie'
+  'breakdownPie'
+  'summaryBar'
+  'summaryBar'
 `
 
 const Dashboard = () => {

@@ -85,7 +85,7 @@ const Row3 = () => {
 
   return (
     <>
-      <DashboardBox gridArea='g'>
+      <DashboardBox gridArea='productsGrid'>
         <BoxHeader
           sideText={`${productData?.length} products`}
           title='List of Products'
@@ -119,7 +119,7 @@ const Row3 = () => {
           />
         </Box>
       </DashboardBox>
-      <DashboardBox gridArea='h'>
+      <DashboardBox gridArea='ordersGrid'>
       <BoxHeader
           sideText={`${transactionData?.length} latest transactions`}
           title='Recent Orders'
@@ -153,7 +153,7 @@ const Row3 = () => {
           />
         </Box>
       </DashboardBox>
-      <DashboardBox gridArea='i'>
+      <DashboardBox gridArea='breakdownPie'>
         <BoxHeader
           sideText='+4%'
           title='Expense Breakdown By Category'
@@ -186,7 +186,7 @@ const Row3 = () => {
           ))}
         </FlexBetween>
       </DashboardBox>
-      <DashboardBox gridArea='j'>
+      <DashboardBox gridArea='summaryBar'>
       <BoxHeader
           sideText='15%'
           title='Overall Summary and Explanation Data'
