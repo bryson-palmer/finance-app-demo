@@ -29,9 +29,9 @@
   - **Frontend** with Vercel
   - **Backend** with fly.io & docker
 
-  #### My Experience
-  Another great tutorial by Ed Roh. He is putting some great content out there.
-  I really enjoyed using recharts. Lots of different chart types and easy to hook up. With some styling, they look great. It was also very easy to use regression for the best-fit line prediction. They have some other functions I would like to try out as well. This prediction page could definitely be expanded upon. Additionally, this was my first app using Typescript. I found it was very intuitive to read and write but I will need to keep writing with it to remember syntax. Another first, using Vercel, fly.io, and Docker. Hosting the frontend with Vercel was a quick and easy task but it was a bit more complicted to get the backend hosted and deployed on fly.io with Docker. After using Redux Bundler at my last job, I have really enjoyed using Redux ToolKit and Query. This app doesn't have complicated state but I see the set up process and useage is much simpler.
+#### My Experience
+Another great tutorial by Ed Roh. He is putting some great content out there.
+I really enjoyed using recharts. Lots of different chart types and easy to hook up. With some styling, they look great. It was also very easy to use regression for the best-fit line prediction. They have some other functions I would like to try out as well. This prediction page could definitely be expanded upon. Additionally, this was my first app using Typescript. I found it was very intuitive to read and write but I will need to keep writing with it to remember syntax. Another first, using Vercel, fly.io, and Docker. Hosting the frontend with Vercel was a quick and easy task but it was a bit more complicted to get the backend hosted and deployed on fly.io with Docker. After using Redux Bundler at my last job, I have really enjoyed using Redux ToolKit and Query. This app doesn't have complicated state but I see the set up process and useage is much simpler.
 ### Data
 The database was seeded with initial data provided with tutorial.
 
