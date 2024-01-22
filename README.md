@@ -5,6 +5,8 @@
 
 ---
 
+![Finanseer](./client/src/assets/finanseer.png)
+
 ### Check Out the App
 - You can check out the hosted app at [https://finance-app-demo-3obgtm9at-bryson-palmer.vercel.app/](https://finance-app-demo-3obgtm9at-bryson-palmer.vercel.app/)
 ### Install the App Locally
