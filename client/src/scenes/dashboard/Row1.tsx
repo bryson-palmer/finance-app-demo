@@ -66,7 +66,7 @@ const Row1 = () => {
           subtitle='top line represents revenue, bottom line represents expenses'
           title='Revenue and Expenses'
         />
-        <ResponsiveContainer width="100%" height="100%">
+        <ResponsiveContainer width="100%" height={isAboveXSamllScreens ? "100%" : "96%"}>
           <AreaChart
             width={500}
             height={400}
