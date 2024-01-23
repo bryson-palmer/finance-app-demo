@@ -7,9 +7,7 @@
 
 ![Finanseer](./client/src/assets/finanseer.png)
 
-<video autoPlay muted width="200" height="400">
-  <source src="./client/src/assets/finanseer-video.mp4">
-</video>
+https://github.com/bryson-palmer/finance-app-demo/assets/71116187/00a4be21-8978-4ef7-a0cc-0f27b9081d45
 
 ### Check Out the App
 - You can check out the hosted app at [https://finance-app-demo-3obgtm9at-bryson-palmer.vercel.app/](https://finance-app-demo-3obgtm9at-bryson-palmer.vercel.app/)
