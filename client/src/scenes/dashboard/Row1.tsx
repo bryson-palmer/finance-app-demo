@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 
-import { useTheme } from '@mui/material'
+import { useMediaQuery, useTheme } from '@mui/material'
 
 import {
   Area,
@@ -24,6 +24,7 @@ import { useGetKpisQuery } from '@/state/api'
 const Row1 = () => {
   const { palette } = useTheme()
   const { data } = useGetKpisQuery()
+  const isAboveXSamllScreens = useMediaQuery('(min-width: 400px)')
 
   const revenueExpenses = useMemo(() => (
     data &&
@@ -138,7 +139,7 @@ const Row1 = () => {
           subtitle='top line represents revenue, bottom line represents profit'
           title='Profit and Revenue'
         />
-        <ResponsiveContainer width="100%" height="100%">
+        <ResponsiveContainer width="100%" height={isAboveXSamllScreens ? "100%" : "96%"}>
           <LineChart
             width={500}
             height={400}
