@@ -6,7 +6,10 @@
 ---
 
 ![Finanseer](./client/src/assets/finanseer.png)
-<video autoPlay muted src="./client/src/assets/finanseer-video.mp4" width="200" >
+
+<video autoPlay muted width="200" height="400">
+  <source src="./client/src/assets/finanseer-video.mp4">
+</video>
 
 ### Check Out the App
 - You can check out the hosted app at [https://finance-app-demo-3obgtm9at-bryson-palmer.vercel.app/](https://finance-app-demo-3obgtm9at-bryson-palmer.vercel.app/)
